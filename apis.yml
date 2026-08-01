@@ -1,7 +1,26 @@
 aid: pair
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pair.png
 name: Pair
-description: Pair is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Pair (formerly Inversity) is an enterprise AI adoption platform that helps
+  organizations build workforce capability in artificial intelligence and measure the
+  return on their AI investment. Pair delivers personalized, hands-on masterclasses
+  grounded in each learner's role, industry, and day-to-day tasks — covering tools
+  such as ChatGPT, Microsoft Copilot, and Claude, plus agentic AI — moving teams from
+  basic AI awareness to measurable adoption. A multi-tier certification path
+  (Fundamentals, Proficiency, Mastery), team adoption dashboards, ROI measurement that
+  tracks time saved and business impact, an AI Showcase for sharing effective workflows,
+  and manager oversight tools round out the platform. Pair is a Seedcamp portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/pair/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- AI Adoption
+- Training
+- Learning and Development
+- Certification
+- Enterprise
+- Workforce Enablement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://pairnow.ai
+  url: https://pairnow.ai
+- type: SignUp
+  url: https://app.pairnow.ai/login
+- type: Login
+  url: https://app.pairnow.ai/login
+- type: Support
+  url: https://www.pairnow.ai/contact-sales
+- type: TrustCenter
+  url: https://trust.pairnow.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pairnow
+- type: DomainSecurity
+  url: security/pair-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
