@@ -58,6 +58,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://www.pairnow.ai/pricing
+- type: Plans
+  url: plans/pair-plans-pricing.yml
 - url: https://www.pairnow.ai/news
   type: Blog
 - type: Website
