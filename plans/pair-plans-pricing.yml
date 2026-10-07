@@ -1,0 +1,68 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.pairnow.ai/pricing
+sources:
+- https://www.pairnow.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Per-licence pricing for an AI adoption platform; monthly toggle shows £20 for all tiers, annual
+  shows £187 pp/year with Enterprise on application. Page text appears duplicated several times.
+plan_count: 7
+currency: GBP
+plans:
+- name: Small Business (monthly)
+  price_text: £20
+  price: 20
+  currency: GBP
+  period: month
+  unit: per licence
+  included_quota: 2–50 Licenses, Minimum 2-year term, PAIR Support, Email support
+- name: Business (monthly)
+  price_text: £20
+  price: 20
+  currency: GBP
+  period: month
+  unit: per licence
+  included_quota: 51–500 Licenses, Minimum 2-year term, SSO + SCIM supported
+- name: Enterprise (monthly)
+  price_text: £20
+  price: 20
+  currency: GBP
+  period: month
+  unit: per licence
+  included_quota: 500+ Licenses, Minimum 2-year term, account manager
+- name: Complete
+  price_text: £20
+  price: 20
+  currency: GBP
+  period: month
+  unit: per licence
+  included_quota: 500+ Licenses, Minimum 2-year term, Strategic AI Adoption Workshop
+- name: Small Business (annual)
+  price_text: £187 pp/year
+  price: 187
+  currency: GBP
+  period: year
+  unit: per person
+  included_quota: 2–50 Licenses, Minimum 2-year term
+- name: Business (annual)
+  price_text: £187 pp/year
+  price: 187
+  currency: GBP
+  period: year
+  unit: per person
+  included_quota: 51–500 Licenses, Minimum 2-year term, SSO + SCIM supported
+- name: Enterprise (annual)
+  price_text: Price on application
+  period: none
+  included_quota: 500+ Licenses, Minimum 2-year term
